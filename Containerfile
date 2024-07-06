@@ -213,7 +213,7 @@ RUN sed -i 's@enabled=0@enabled=1@g' /etc/yum.repos.d/_copr_ublue-os-akmods.repo
     curl -Lo /etc/yum.repos.d/negativo17-fedora-multimedia.repo https://negativo17.org/repos/fedora-multimedia.repo && \
     rpm-ostree install \
         /tmp/akmods-rpms/kmods/*kvmfr*.rpm \
-        /tmp/akmods-rpms/kmods/*xone*.rpm \
+        #/tmp/akmods-rpms/kmods/*xone*.rpm \
         /tmp/akmods-rpms/kmods/*openrazer*.rpm \
         /tmp/akmods-rpms/kmods/*v4l2loopback*.rpm \
         /tmp/akmods-rpms/kmods/*wl*.rpm \
